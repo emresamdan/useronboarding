@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 import Airtable from "airtable";
+import Seo from "../components/Seo";
 
 /* This example requires Tailwind CSS v2.0+ */
 import { CheckIcon } from "@heroicons/react/outline";
@@ -174,6 +175,10 @@ export default function Example({ posts }) {
   return (
     <div>
       <Navbar />
+      <Seo
+        title="Userflow - User Onboarding Tool - UserOnboarding.Academy"
+        description="Userflow is a virtual onboarding and product adoption tool that allows users to train their end-users with a selection of onboarding materials. "
+      />
       <div className="bg-white pb-8 sm:pb-12 lg:pb-12">
         <div className="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
           <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">

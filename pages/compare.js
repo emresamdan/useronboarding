@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import { CheckIcon, MinusIcon } from "@heroicons/react/solid";
 import Link from "next/link";
 import Footer from "../components/Footer";
+import Seo from "../components/Seo";
 
 /* This example requires Tailwind CSS v2.0+ */
 const features = [
@@ -115,6 +116,7 @@ export default function compare() {
   return (
     <div className="bg-white">
       <Navbar />
+      <Seo title="Compare User Onboarding Tools - - UserOnboarding.Academy" description="Compare best user onboarding tools in details. Decide which one is suitable for you." />
 
       <div className="bg-indigo-100">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 lg:flex lg:items-center lg:justify-between">

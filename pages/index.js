@@ -23,7 +23,7 @@ export default function Home({ allPosts, allPopups }) {
   const popups = allPopups.slice(0,3);
   return (
     <div>
-      <Seo title="User Onboarding Academy" description="User Onboarding Academy" />
+      <Seo title="User Onboarding Made Easy - UserOnboarding.Academy" description="Inspire, explore and compare best user onboarding tools in the market to find which is suitable for you." />
       <Navbar />
       <Hero/>
       <InspirationalPopups allPopups={popups}/>

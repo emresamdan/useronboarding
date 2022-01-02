@@ -4,10 +4,13 @@ import Navbar from "../components/Navbar";
 import Link from "next/link";
 import tools from "../lib/tools";
 import Footer from "../components/Footer";
+import Seo from "../components/Seo";
 
 export default function Example() {
   return (
     <div>
+   <Seo title="User Onboarding Tools - UserOnboarding.Academy" description="Inspire, explore and compare best user onboarding tools in the market to find which is suitable for you." />
+
       <Navbar />
       {tools.map((item) => (
         <div key={item.id} className="relative py-16 bg-white">
