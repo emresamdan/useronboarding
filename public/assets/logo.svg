@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="339.455" height="59.652" viewBox="0 0 339.455 59.652">
+  <g id="Group_1" data-name="Group 1" transform="translate(-371.289 -409.674)">
+    <text id="ACADEMY" transform="translate(434.257 466.326)" fill="#5c6ac4" font-size="11" font-family="GoogleSans-Bold, Google Sans" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">ACADEMY</tspan></text>
+    <text id="UserOnboarding" transform="translate(431.743 445.674)" font-size="37" font-family="GoogleSans-Regular, Google Sans"><tspan x="0" y="0">Use</tspan><tspan y="0" letter-spacing="0.035em">r</tspan><tspan y="0">Onboarding</tspan></text>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="2.166" height="22.946" transform="translate(418.946 425.173)" fill="#3a41ac"/>
+    <path id="Path_1" data-name="Path 1" d="M476.35,498.283s2.166-2.7,2.166-3.9a2.166,2.166,0,1,0-4.333,0C474.184,495.58,476.35,498.283,476.35,498.283Z" transform="translate(-56.321 -45.181)" fill="#3a41ac"/>
+    <path id="Path_2" data-name="Path 2" d="M395.5,444.9l-23.5-9.79a1.161,1.161,0,0,1,0-2.142l23.5-9.789a4.637,4.637,0,0,1,3.571,0l23.495,9.789a1.16,1.16,0,0,1,0,2.142L399.07,444.9A4.642,4.642,0,0,1,395.5,444.9Z" transform="translate(0 -7.197)" fill="#5059c9"/>
+    <path id="Path_3" data-name="Path 3" d="M409.072,446.752c-8.973,0-16.247,1.558-16.247,3.481v14.931a33.708,33.708,0,0,1,16.247,4.333,33.708,33.708,0,0,1,16.247-4.333V450.233C425.319,448.31,418.044,446.752,409.072,446.752Z" transform="translate(-11.788 -20.295)" fill="#7b83eb"/>
+  </g>
+</svg>
