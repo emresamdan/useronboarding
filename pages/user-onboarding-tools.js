@@ -20,12 +20,9 @@ export default function Example() {
           />
           <div className="max-w-4xl mx-auto bg-indigo-600 lg:bg-transparent lg:px-8">
             <div className="lg:grid lg:grid-cols-12">
-              <div className="relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
-                <div
-                  className="absolute inset-x-0 h-1/2 bg-gray-50 lg:hidden"
-                  aria-hidden="true"
-                />
-                <div className="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0">
+              <div className="relative z-10  lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
+                
+                <div className="max-w-md mx-auto px-4 pt-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0">
                   <div>
                     <img
                       className="object-cover object-center rounded-3xl shadow-2xl bg-white p-12"

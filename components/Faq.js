@@ -6,7 +6,7 @@ const faqs = [
   {
     question: "What is User Onboarding?",
     answer:
-      "User onboarding is an ever-ongoing process in which you help users find the value you offer to them and try to get them to their “Aha!” moments by explaining the specifics and how-tos of your product.",
+      "User onboarding is an ever-ongoing process in which you help users find the value you offer to them and try to get them to their 'Aha!' moments by explaining the specifics and how-tos of your product.",
   },
   {
     question: "What makes User Onboarding good?",
@@ -31,7 +31,7 @@ const faqs = [
   {
     question: "What is a product tour?",
     answer:
-      "A Product Tour is virtually guiding your users through the basics and necessary features of your product. Product tours are meant to be definitive, clear, and simple so that the user reaches the ‘’Aha!’’ moment quickly, without being overwhelmed.",
+      "A Product Tour is virtually guiding your users through the basics and necessary features of your product. Product tours are meant to be definitive, clear, and simple so that the user reaches the 'Aha!' moment quickly, without being overwhelmed.",
   },
   {
     question: "What is product adoption?",
