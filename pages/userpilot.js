@@ -178,7 +178,7 @@ export default function Example({ posts }) {
             <div>
               <div className="mt-20">
                 <div>
-                  <a href="#" className="inline-flex space-x-4">
+                  <a rel="nofollow"  href="#" className="inline-flex space-x-4">
                     <span className="rounded bg-indigo-50 px-2.5 py-1 text-xs font-semibold text-indigo-600 tracking-wide uppercase">
                       What's new
                     </span>
@@ -229,7 +229,7 @@ export default function Example({ posts }) {
                         Rated 4.7 stars
                       </span>{" "}
                       by over{" "}
-                      <a href="https://www.g2.com/products/userpilot/reviews"  target="_blank">
+                      <a rel="nofollow"  href="https://www.g2.com/products/userpilot/reviews"  target="_blank">
                         <span className="font-medium text-indigo-600">
                           77 G2 users
                         </span>
@@ -397,7 +397,7 @@ export default function Example({ posts }) {
         <div className="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
           <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
             <div className="md:flex-shrink-0 w-12">
-            <a href="https://www.g2.com/products/userpilot/reviews/userpilot-review-4307519" target="_blank">
+            <a rel="nofollow"  href="https://www.g2.com/products/userpilot/reviews/userpilot-review-4307519" target="_blank">
               <img
                 className="h-12"
                 src="assets/reviews/g2-logo.png"
@@ -445,7 +445,7 @@ export default function Example({ posts }) {
           </div>
           <div className="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
             <div className="md:flex-shrink-0 w-40">
-             <a href="https://www.capterra.com/p/179187/Userpilot/#reviews" target="_blank">
+             <a rel="nofollow" href="https://www.capterra.com/p/179187/Userpilot/#reviews" target="_blank">
               <img
                 className="h-12"
                 src="assets/reviews/capterra-logo.png"
