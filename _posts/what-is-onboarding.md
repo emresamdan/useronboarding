@@ -1,14 +1,14 @@
 ---
 title: 'What is User Onboarding? (the REAL definition with examples)'
 excerpt: 'The biggest mistake when onboarding users should be the lack of understanding of user onboarding as a concept. In this article, I will explain what user onboarding exactly is and how you should change the way you look at it, for improving your chances of success in having successful and loyal users.'
-coverImage: '/assets/cover.jpg'
-date: '2020-03-16T05:35:07.322Z'
+coverImage: '/assets/cover2.png'
+date: '2020-12-16'
 category: 'shopify'
 author:
   name: JJ Kasper
   picture: '/assets/jj.jpeg'
 ogImage:
-  url: '/assets/cover.jpg'
+  url: '/assets/cover2.png'
 ---
 
 Biggest mistake when onboarding users should be the lack of understanding of user onboarding as a concept.
