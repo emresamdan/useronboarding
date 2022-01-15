@@ -18,7 +18,7 @@ const features = [
   {
     name: "Includes",
     description:
-      "Pen Tray, Phone Tray, Small Tray, Large Tray, Sticky Note Holder",
+      "Pen Trays, Phone Tray, Small Tray, Large Tray, Sticky Note Holder",
   },
   {
     name: "Considerations",
