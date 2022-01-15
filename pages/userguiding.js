@@ -177,6 +177,10 @@ import { format } from "date-fns";
 export default function Example({ posts }) {
   return (
     <div>
+       <Seo
+        title="UserGuiding - UserOnboarding.Academy"
+        description="With UserGuiding you can create product guides in seconds and start onboarding your users to success."
+      />
       <Navbar />
       <div className="bg-white pb-8 sm:pb-12 lg:pb-12">
         <div className="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">

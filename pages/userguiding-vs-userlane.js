@@ -1,6 +1,8 @@
 import Navbar from "../components/Navbar";
 import { CheckIcon, XIcon } from '@heroicons/react/solid'
 import Footer from "../components/Footer";
+import Seo from "../components/Seo";
+
 
 const plans = [
     {
@@ -193,13 +195,16 @@ function classNames(...classes) {
 export default function popupsmartvssleeknote() {
     return (
         <div className="bg-white">
+                     <Seo
+        title="UserGuiding vs Userlane Comparison - UserOnboarding.Academy"
+        description="Let's compare Userguiding and Userlane and also cover some of the best features that offer better value for money."/>
             <Navbar />
             <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
                 <div className="text-center">
                     <h2 className="text-base font-semibold text-indigo-600 tracking-wide uppercase">User Onboarding Comparison</h2>
-                    <p className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
+                    <h1 className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
                         UserGuiding vs Userlane
-                    </p>
+                    </h1>
                     <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
                         Let's compare   <b>UserGuiding</b> and <b>Userlane</b> and also cover some of the best features that offer better value for money.
                     </p>
@@ -217,10 +222,10 @@ export default function popupsmartvssleeknote() {
                     <div aria-hidden="true" className="hidden absolute bg-gray-50 w-full h-6 bottom-0 lg:block" />
 
                     <div className="relative max-w-2xl mx-auto pt-16 px-4 text-center sm:pt-32 sm:px-6 lg:max-w-7xl lg:px-8">
-                        <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-6xl">
+                        <h2 className="text-4xl font-extrabold tracking-tight text-white sm:text-6xl">
                             <span className="block lg:inline">Simple pricing,</span>
                             <span className="block lg:inline">no commitment.</span>
-                        </h1>
+                        </h2>
                         <p className="mt-4 text-xl text-indigo-100">
                             Everything you need, nothing you don't. Pick a plan that best suits your business.
                         </p>

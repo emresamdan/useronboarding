@@ -41,7 +41,7 @@ const faqs = [
     id: 3,
     question: "Does Userpilot offer a Demo?",
     answer:
-          "Yes, you can contact Userpilot and schedule a demo if you want to be trained live.",
+      "Yes, you can contact Userpilot and schedule a demo if you want to be trained live.",
   },
   {
     id: 4,
@@ -54,25 +54,24 @@ const faqs = [
     question: "How do I install Userpilot?",
     answer:
       "To install Userpilot, you should first create a profile. Then, you should copy the provided JavaScript code and paste it into your product's code as instructed. You can contact their support channels if you need help.",
-   },
+  },
   {
     id: 6,
     question: "What does Userpilot do?",
     answer:
       "Userpilot helps you create onboarding flows with elements such as hotspots, tooltips, interactive product tours, and checklists.",
-    },
+  },
   {
     id: 7,
     question: "Where is Userpilot based?",
-    answer:
-      "Userpilot is based in San Francisco, California, USA.",
-    },
+    answer: "Userpilot is based in San Francisco, California, USA.",
+  },
   {
     id: 8,
     question: "Does Userpilot have an analytics feature?",
     answer:
       "Yes, userpilot allows you to track your end-users activities. The tool also offers integrations with analytics tools such as Google Analytics and Amplitude.",
-    },
+  },
   {
     id: 9,
     question: "Is Userpilot better than Intercom?",
@@ -101,7 +100,7 @@ const pricing = {
     {
       title: "Enterprise",
       price: 749,
-        frequency: "/month",
+      frequency: "/month",
       description: "Custom quotation required for enterprise packages.",
       features: [
         "For only 2500 users with annual billing.",
@@ -113,7 +112,6 @@ const pricing = {
       cta: "Annually Billing",
       mostPopular: false,
     },
-   
   ],
 };
 
@@ -130,7 +128,7 @@ const features = [
     name: "In-app Messages",
     description:
       "Tooltips, hotspots, and announcement banners to improve feature adoption and user engagement.",
-    },
+  },
   {
     name: "Interactive Checklists",
     description:
@@ -146,7 +144,6 @@ const features = [
     description:
       "In-depth analytics of the performance of your interactive content and overall product usage.",
   },
-  
 ];
 
 /*
@@ -171,6 +168,10 @@ import { format } from "date-fns";
 export default function Example({ posts }) {
   return (
     <div>
+      <Seo
+        title="Userpilot - UserOnboarding.Academy"
+        description="Userpilot is a user engagement tool that allows you to create interactive walkthroughs for your platform and onboard your end-users without friction. "
+      />
       <Navbar />
       <div className="bg-white pb-8 sm:pb-12 lg:pb-12">
         <div className="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
@@ -178,7 +179,7 @@ export default function Example({ posts }) {
             <div>
               <div className="mt-20">
                 <div>
-                  <a rel="nofollow"  href="#" className="inline-flex space-x-4">
+                  <a rel="nofollow" href="#" className="inline-flex space-x-4">
                     <span className="rounded bg-indigo-50 px-2.5 py-1 text-xs font-semibold text-indigo-600 tracking-wide uppercase">
                       What's new
                     </span>
@@ -196,8 +197,12 @@ export default function Example({ posts }) {
                     Userpilot
                   </h1>
                   <p className="mt-6 text-xl text-gray-500">
-                                      Userpilot is a user engagement tool that allows you to create interactive walkthroughs for your platform and onboard your end-users without friction.
-                                      While not being the most non-technical people-friendly feature adoption tool on the market, Userpilot offers a wide range of features and use cases.
+                    Userpilot is a user engagement tool that allows you to
+                    create interactive walkthroughs for your platform and
+                    onboard your end-users without friction. While not being the
+                    most non-technical people-friendly feature adoption tool on
+                    the market, Userpilot offers a wide range of features and
+                    use cases.
                   </p>
                 </div>
                 <div className="mt-6">
@@ -229,7 +234,11 @@ export default function Example({ posts }) {
                         Rated 4.7 stars
                       </span>{" "}
                       by over{" "}
-                      <a rel="nofollow"  href="https://www.g2.com/products/userpilot/reviews"  target="_blank">
+                      <a
+                        rel="nofollow"
+                        href="https://www.g2.com/products/userpilot/reviews"
+                        target="_blank"
+                      >
                         <span className="font-medium text-indigo-600">
                           77 G2 users
                         </span>
@@ -296,9 +305,7 @@ export default function Example({ posts }) {
             <h2 className="text-3xl font-extrabold text-gray-900">
               Featured Features
             </h2>
-            <p className="mt-4 text-lg text-gray-500">
-              
-            </p>
+            <p className="mt-4 text-lg text-gray-500"></p>
           </div>
           <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
             {features.map((feature) => (
@@ -326,7 +333,8 @@ export default function Example({ posts }) {
           Pricing plans for teams of all sizes
         </h2>
         <p className="mt-6 max-w-2xl text-xl text-gray-500">
-          Userpilot has two different pricing plans. Pricing for each plan below scales with your monthly active users.
+          Userpilot has two different pricing plans. Pricing for each plan below
+          scales with your monthly active users.
         </p>
 
         {/* Tiers */}
@@ -397,11 +405,15 @@ export default function Example({ posts }) {
         <div className="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
           <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
             <div className="md:flex-shrink-0 w-12">
-            <a rel="nofollow"  href="https://www.g2.com/products/userpilot/reviews/userpilot-review-4307519" target="_blank">
-              <img
-                className="h-12"
-                src="assets/reviews/g2-logo.png"
-                alt="G2 Logo"
+              <a
+                rel="nofollow"
+                href="https://www.g2.com/products/userpilot/reviews/userpilot-review-4307519"
+                target="_blank"
+              >
+                <img
+                  className="h-12"
+                  src="assets/reviews/g2-logo.png"
+                  alt="G2 Logo"
                 />
               </a>
             </div>
@@ -416,10 +428,16 @@ export default function Example({ posts }) {
                   <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                 </svg>
                 <p className="relative">
-                 <b>"Userpilot - A valuable addition to the SkillsTx Service provision"</b>
-                  <p>The functionality and price competitiveness. The ease of setting up new Experiences and Checklists and the scope in terms of what it can be used for.
-                    The UserPilot promptness to replying and resolving any queries and issues.</p>
-
+                  <b>
+                    "Userpilot - A valuable addition to the SkillsTx Service
+                    provision"
+                  </b>
+                  <p>
+                    The functionality and price competitiveness. The ease of
+                    setting up new Experiences and Checklists and the scope in
+                    terms of what it can be used for. The UserPilot promptness
+                    to replying and resolving any queries and issues.
+                  </p>
                 </p>
               </div>
               <footer className="mt-8">
@@ -445,11 +463,15 @@ export default function Example({ posts }) {
           </div>
           <div className="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
             <div className="md:flex-shrink-0 w-40">
-             <a rel="nofollow" href="https://www.capterra.com/p/179187/Userpilot/#reviews" target="_blank">
-              <img
-                className="h-12"
-                src="assets/reviews/capterra-logo.png"
-                alt="Capterra Logo"
+              <a
+                rel="nofollow"
+                href="https://www.capterra.com/p/179187/Userpilot/#reviews"
+                target="_blank"
+              >
+                <img
+                  className="h-12"
+                  src="assets/reviews/capterra-logo.png"
+                  alt="Capterra Logo"
                 />
               </a>
             </div>
@@ -463,9 +485,12 @@ export default function Example({ posts }) {
                   <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                 </svg>
                 <p className="relative">
-                      <b>"Mediocre product, and awful customer service"</b>
-                      <p>Mediocre software that didn't provide my business with any real value and it was a pain to cancel. Price is outrageous and customer service is awful.</p>
-                      
+                  <b>"Mediocre product, and awful customer service"</b>
+                  <p>
+                    Mediocre software that didn't provide my business with any
+                    real value and it was a pain to cancel. Price is outrageous
+                    and customer service is awful.
+                  </p>
                 </p>
               </div>
               <footer className="mt-8">
@@ -561,7 +586,8 @@ export default function Example({ posts }) {
   );
 }
 
-{/*export async function getStaticProps() {
+{
+  /*export async function getStaticProps() {
   const result = await base("Data")
     .select({
       view: "view",
@@ -594,4 +620,5 @@ export default function Example({ posts }) {
       posts,
     },
   };
-}*/}
+}*/
+}
