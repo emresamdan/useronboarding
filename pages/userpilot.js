@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Seo from "../components/Seo";
+
 
 import Airtable from "airtable";
 
