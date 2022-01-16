@@ -17,6 +17,7 @@ import Modal from "../components/Modal";
 import Link from "next/link";
 
 
+
 export default function Home({ allPosts, allPopups }) {
   const language = "english";
   const [open, setOpen] = useState(false)
